@@ -1,0 +1,36 @@
+{
+    "editor.accessibilitySupport": "off",
+    "redhat.telemetry.enabled": true,
+    "terminal.integrated.fontSize": 13,
+    "chat.editor.fontSize": 13,
+    "window.zoomLevel": 1,
+    "editor.fontSize": 13,
+    "debug.console.fontSize": 13,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "java.completion.importOrder": [
+
+        "#",
+        "com",
+        "org",
+        "java",
+        "javax",
+        ""
+    ],
+    "editor.formatOnSaveMode": "modifications",
+    "java.format.settings.url": "/home/${user}/Documents/cubchicken/updated-formatter.xml",
+    "java.format.enabled": false,
+    "[java]": {
+        "editor.formatOnSave": false,
+        "editor.formatOnSaveMode": "modifications",
+        "editor.suggest.snippetsPreventQuickSuggestions": false
+    },
+    "vim.enableNeovim": true,
+    "vim.insertModeKeyBindings": [
+            {
+                "before": ["f", "d"],
+                "after": ["<Esc>"]
+            }
+       ]
+}
