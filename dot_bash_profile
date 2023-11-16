@@ -1,0 +1,9 @@
+# This preserves history across all prompts.
+export PROMPT_COMMAND="history -a; history -c; history -r"
+
+# This is useful on systems with Ubuntu's Snapcraft and
+# also Flatpak installed.
+alias allupdates='sudo apt update; sudo apt upgrade --yes; sudo snap refresh; sudo flatpak update --assumeyes'
+
+
+
